@@ -11,7 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background: #fff;
+  background: #ffffff;
   color: #999;
   line-height: 1.5; }
 
@@ -180,11 +180,14 @@ header {
   margin-bottom: 2em; }
 
 .logoFooter {
+  color: #33bfd0;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 28px;
   text-align: left; }
 
 .footer h2 {
+  color: #33bfd0;
   font-size: 16px; }
 
 .footer ul {
@@ -371,3 +374,58 @@ header {
         color: #fff;
         outline: 0;
         transition: background-color 2s ease-out; } }
+
+/* estilos para el resume */
+.resume-info {
+  color: #ffffff;
+  font-size: 26px;
+  padding-top: 15px;
+  background: #333;
+  text-align: center; }
+  .resume-info h3, .resume-info p {
+    color: #ffffff;
+    padding-top: 15px; }
+  .resume-info h3 {
+    font-size: 26px;
+    text-align: center; }
+  .resume-info p {
+    font-size: 15px; }
+  .resume-info .ulInfo {
+    font-size: 12px;
+    list-style: none;
+    padding-top: 20px;
+    margin: 0 0 1rem 0; }
+  .resume-info img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 350px;
+    max-width: 250px;
+    margin: auto; }
+
+.resume {
+  padding-bottom: 80px; }
+  .resume h3, .resume p {
+    color: #414141;
+    padding-top: 15px;
+    padding-left: 30px; }
+  .resume h3 {
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 35px; }
+  .resume p {
+    font-size: 16px; }
+  .resume .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    margin-right: 20px;
+    margin-left: 35px; }
+    .resume .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+    .resume .card h4 {
+      font-size: 16px;
+      color: #33bfd0; }
+    .resume .card p {
+      color: #333;
+      font-size: 14px;
+      font-weight: bold; }
