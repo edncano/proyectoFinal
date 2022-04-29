@@ -62,7 +62,7 @@ a, img {
 }
 
 h1, h2 {
-  color: #333;
+  color: $secondarycolor;
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ h3 {
   font-size: 1.3em;
   margin: 2rem 0 0 0;
   line-height: 0.5;
-  color: #333;
+  color: $secondarycolor;
   font-weight: 500;
   text-align: left;
 }
@@ -226,7 +226,7 @@ header {
   flex-flow: row wrap;
   padding-top: 100px;
   padding-left: 70px;
-  color: #333;
+  color: $secondarycolor;
 
   > * {
     flex: 1 100%;
@@ -241,6 +241,7 @@ header {
 .logoFooter {
 
   color: $brandcolor;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 28px;
@@ -343,7 +344,7 @@ header {
   }
 
   .company-info {
-    background: #333;
+    background: $secondarycolor;
     color: #999;
 
     h3, ul {
@@ -364,7 +365,7 @@ header {
       label {
         display: block;
         margin-bottom: 10px;
-        color: #333;
+        color: $secondarycolor;
         font-weight: 400;
       }
 
@@ -393,7 +394,7 @@ header {
     }
 
     form button {
-      background: #333;
+      background: $secondarycolor;
       border: 0;
       font-weight: 600;
       color: #ffff;
@@ -478,7 +479,7 @@ header {
   }
 
   .company-info {
-    background: #333;
+    background: $secondarycolor;
     color: #999;
     padding-top: 30px;
 
@@ -501,7 +502,7 @@ header {
       label {
         display: block;
         margin-bottom: 10px;
-        color: #333;
+        color: $secondarycolor;
         font-weight: 400;
       }
 
@@ -530,7 +531,7 @@ header {
     }
 
     form button {
-      background: #333;
+      background: $secondarycolor;
       border: 0;
       font-weight: 600;
       color: #ffff;
@@ -552,9 +553,10 @@ header {
 .resume-info{
 
   color: $backcolor;
+  font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   padding-top: 15px;
-  background: #333;
+  background: $secondarycolor;
   text-align: center;
 
     h3, p{
@@ -572,7 +574,7 @@ header {
     }
 
     .ulInfo{
-      font-size: 12px;
+      font-size: 14px;
       list-style: none;
       padding-top: 20px;
       margin: 0 0 1rem 0;
@@ -590,6 +592,7 @@ header {
 .resume{
 
   padding-bottom: 80px;
+  font-family: 'Montserrat', sans-serif;
 
   h3, p{
     color: $maincolor;
@@ -624,7 +627,7 @@ header {
     }
 
     p{
-      color: #333;
+      color: $secondarycolor;
       font-size: 14px;
       font-weight:bold;
     }

@@ -181,6 +181,7 @@ header {
 
 .logoFooter {
   color: #33bfd0;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 28px;
@@ -380,6 +381,7 @@ header {
 /* estilos para el resume */
 .resume-info {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   padding-top: 15px;
   background: #333;
@@ -393,7 +395,7 @@ header {
   .resume-info p {
     font-size: 15px; }
   .resume-info .ulInfo {
-    font-size: 12px;
+    font-size: 14px;
     list-style: none;
     padding-top: 20px;
     margin: 0 0 1rem 0; }
@@ -405,7 +407,8 @@ header {
     margin: auto; }
 
 .resume {
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  font-family: 'Montserrat', sans-serif; }
   .resume h3, .resume p {
     color: #414141;
     padding-top: 15px;
