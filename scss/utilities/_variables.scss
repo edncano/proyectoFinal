@@ -4,3 +4,41 @@ $backcolor: #ffffff;
 $brandcolor: #33bfd0;
 $maincolor: #414141;
 $secondarycolor: #333;
+
+
+// mixins
+
+@mixin size ($max-width, $height){
+    max-width: $max-width;
+    height: $height;
+}
+
+@mixin flexHeader{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@mixin gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+// maps
+
+$standard: (
+    standard-color: $backcolor,
+    standard-bg: $secondarycolor,
+    standard-border: 0,
+)
+

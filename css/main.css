@@ -285,12 +285,12 @@ header {
       background: #333;
       border: 0;
       font-weight: 600;
-      color: #ffff;
+      color: #ffffff;
       text-transform: none;
       max-width: 100%; }
       .contact form button:hover {
-        background: #414141;
-        color: #fff;
+        background: #333;
+        color: #ffffff;
         outline: 0;
         transition: background-color 2s ease-out; }
   /* form styles */
@@ -318,6 +318,7 @@ header {
   /* contact page styles */
   .formContainer {
     max-width: 1170px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 1em; }
@@ -369,12 +370,12 @@ header {
       background: #333;
       border: 0;
       font-weight: 600;
-      color: #ffff;
+      color: #ffffff;
       text-transform: none;
       max-width: 100%; }
       .contact form button:hover {
-        background: #414141;
-        color: #fff;
+        background: #333;
+        color: #ffffff;
         outline: 0;
         transition: background-color 2s ease-out; } }
 

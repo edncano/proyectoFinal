@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 @import "utilities/variables";
 
+
 * {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
@@ -160,12 +161,7 @@ footer {
 /* flexbox */
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  @include flexHeader;
 
   nav {
     -webkit-box-flex: 1;
@@ -180,14 +176,7 @@ header {
 }
 
 .gallery ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  @include gallery;
 
   li {
     -webkit-box-flex: 0;
@@ -394,16 +383,16 @@ header {
     }
 
     form button {
-      background: $secondarycolor;
+      background: map-get($map: $standard, $key:standard-bg);
       border: 0;
       font-weight: 600;
-      color: #ffff;
+      color: map-get($map: $standard, $key:standard-color);
       text-transform: none;
       max-width: 100%;
 
       &:hover {
-        background: $maincolor;
-        color: #fff;
+        background: map-get($map: $standard, $key:standard-bg);
+        color: map-get($map: $standard, $key:standard-color);
         outline: 0;
         transition: background-color 2s ease-out;
       }
@@ -453,7 +442,7 @@ header {
   /* contact page styles */
 
   .formContainer {
-    max-width: 1170px;
+    @include size (1170px, auto);
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -531,16 +520,16 @@ header {
     }
 
     form button {
-      background: $secondarycolor;
+      background: map-get($map: $standard, $key:standard-bg);
       border: 0;
       font-weight: 600;
-      color: #ffff;
+      color: map-get($map: $standard, $key:standard-color);
       text-transform: none;
       max-width: 100%;
 
       &:hover {
-        background: $maincolor;
-        color: #fff;
+        background: map-get($map: $standard, $key:standard-bg);
+        color: map-get($map: $standard, $key:standard-color);
         outline: 0;
         transition: background-color 2s ease-out;
       }
@@ -633,3 +622,4 @@ header {
     }
   }
 }
+
