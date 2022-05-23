@@ -33,6 +33,7 @@ a {
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
+  
 
   &:hover {
     color: #70d2de;
@@ -45,9 +46,11 @@ img {
   -webkit-transition: opacity 0.3s ease-out;
   -o-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
+  transition: 0.2s all ease-in-out;
 
   &:hover {
-    opacity: 0.75;
+    opacity: 0.60;
+    transform: scale(1.05);
   }
 }
 
@@ -61,6 +64,7 @@ a, img {
   width: 80%;
   margin: 0 auto;
 }
+
 
 h1, h2 {
   color: $secondarycolor;
@@ -368,6 +372,11 @@ header {
 
       .formButton {
         grid-column: 2 / 3;
+        transition: 0.2s all ease-in-out;
+
+        &:hover{
+          transform: scale(1.04)
+        }
       }
 
       button, input, textarea {
